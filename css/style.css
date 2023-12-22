@@ -1,0 +1,241 @@
+* { 
+   margin: 0; 
+   padding: 0; 
+}
+
+
+img {
+   max-width: 100%; 
+   height: auto;
+}
+
+
+@media (max-width: 600px) {
+   .intro-right {
+    min-width: 30;
+   }
+  }
+
+.intro-right{
+   min-width: 55;
+   height: auto;
+}
+
+@media (max-width: 600px) {
+   .intro-section p {
+    font-size: medium;
+   }
+  }
+
+.intro-section p {
+   font-size: x-large;
+   padding: 7em 2em;
+
+}
+
+body {
+   font-family: 'Roboto', sans-serif;
+}
+
+/* HEADER */
+header {
+   background-color: #3882F6; 
+   padding: 1em 13em;
+}
+
+.header-right ul {
+   list-style: none;
+   display: flex;
+   justify-content: flex-end;
+   gap: 1.5em;
+}
+
+.header-right ul li a {
+   color: white;
+   text-decoration: none;
+   font-size: larger;
+}
+
+#header-logo img {
+   width: 150px;
+   float: left;
+}
+
+/* NAVIGATION */
+#logo {
+   font-size: 24px;
+   font-weight: 900;
+   color: #FFFFFF; /* Blanco */
+}
+
+.nav {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.nav ul {
+   list-style-type: none;
+   display: flex;
+   gap: 1.5em;
+}
+
+/* WELCOME */
+.intro-section {
+   padding: 7em 0;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   gap: 3em;
+}
+
+.intro-section .intro-left {
+   display: flex;
+   flex-direction: column;
+   gap: 10px;
+   font-size: large;
+   color: black;
+}
+
+.intro-section .intro-right {
+   flex-shrink: 0;
+   width: 50%;
+}
+
+.titulo-negro {
+   color: black;
+   text-align: center;
+ }
+ 
+ .card-container {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-around;
+ }
+ 
+ .card {
+   flex: 1 0 45%; /* Ajusta este valor a tu necesidad */
+   margin: 15px;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+ }
+ 
+ .square {
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+ }
+
+
+button {
+   padding: 7px 1em;
+   width: 120px;
+   background-color: #FFFFFF; /* Blanco */
+   border-radius: 8px;
+}
+
+.intro-section button {
+   border: none;
+}
+
+.intro-image {
+   background-color: #F9FAF8; /* Gris claro */
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   height: 215px;
+}
+
+/* CARD SECTION */
+main {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   padding: 0 13em;
+   margin-top: 3em;
+}
+
+main h2 {
+   font-size: 36px;
+   font-weight: 900;
+   color: #3882F6; /* Azul claro */
+}
+
+.card-container {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-wrap: wrap;
+   margin: 3em 0 6em 0;
+}
+
+.square {
+   border: 4px solid #3882F6; /* Azul claro */
+   border-radius: 20px;
+   width: 160px;
+   height: 160px;
+}
+
+/* QUOTE */
+
+.quote-section {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   background-color: #E5E7EB;
+   padding: 7em 13em;
+}
+
+.aboutbonsai {
+   text-align: center;
+   text-decoration: underline;
+   font-size: large;
+   color: #333;
+   margin-bottom: 2em;
+  }
+
+  
+  .quote-section p {
+   text-align: justify;
+   font-size: larger;
+  }
+  
+
+
+/* SIGN UP */
+.signup-section {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding: 5em 13em;
+}
+
+.container {
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+   background-color: #FFFFFF; /* Blanco */
+   padding: 3em;
+   width: 100%;
+   border-radius: 10px;
+}
+
+.container button {
+   border: 2px solid #3882F6; /* Azul claro */
+}
+
+strong {
+   font-size: 24px;
+   color: #3882F6; /* Azul claro */
+}
+
+/* FOOTER */
+footer {
+   background-color: #3882F6; /* Azul claro */
+   color: #FFFFFF; /* Blanco */
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding: 2em 0;
+}
